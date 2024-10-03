@@ -101,8 +101,24 @@ def calcular_ingresos_horarios(lista:list) -> float:
 
 def multiplicar_matrices(matriz1, matriz2):
     
-    filas = 0
-    columnas = 0
+    #Matriz 1
+    filas1 = 0
+    columnas1 = 0
+
+    #Matriz 2
+    filas2 = 0
+    columnas2 = 0
+
     for i in range(matriz1):
+        filas1 += 1
         for j in range(matriz1[i]):
-            columnas += 1
+            columnas1 += 1
+
+    for i in range(matriz2):
+        filas2 += 1
+        for j in range(matriz2[i]):
+            columnas2 += 1
+
+
+    # if columnas1 == filas2:
+        
